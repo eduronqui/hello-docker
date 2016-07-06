@@ -10,3 +10,4 @@ services:
 before_install:
   - docker build -t hello-docker .
   - docker run -it --rm --name hello-docker hello-docker
+  - docker kill hello-docker
