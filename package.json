@@ -1,0 +1,19 @@
+{
+  "name": "hello-docker",
+  "version": "1.0.0",
+  "description": "Docker test app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edu Ronqui",
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/eduronqui/hello-docker.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
